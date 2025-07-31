@@ -8,35 +8,59 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Absama's Arena Design System */
+    --background: 25 25% 8%;
+    --foreground: 45 95% 85%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 25 30% 12%;
+    --card-foreground: 45 95% 85%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 25 30% 12%;
+    --popover-foreground: 45 95% 85%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Emerald green primary - signature pool table color */
+    --primary: 158 64% 20%;
+    --primary-foreground: 45 95% 85%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Rich mahogany secondary */
+    --secondary: 25 45% 15%;
+    --secondary-foreground: 45 95% 85%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 25 20% 18%;
+    --muted-foreground: 45 35% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Gold accent for Absama branding */
+    --accent: 45 95% 58%;
+    --accent-foreground: 25 25% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 45 95% 85%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 25 20% 25%;
+    --input: 25 20% 18%;
+    --ring: 45 95% 58%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Pool table felt texture */
+    --table-felt: 158 75% 25%;
+    --table-rail: 25 60% 18%;
+    --table-pocket: 0 0% 5%;
+    
+    /* Ball colors */
+    --cue-ball: 0 0% 98%;
+    --ball-stripe: 45 95% 85%;
+    --ball-solid: 220 90% 50%;
+    
+    /* Absama branding gradients */
+    --gradient-absama: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--primary)));
+    --gradient-table: linear-gradient(145deg, hsl(var(--table-felt)), hsl(158 60% 22%));
+    --gradient-wood: linear-gradient(90deg, hsl(var(--secondary)), hsl(25 50% 12%));
+    
+    /* Animations and effects */
+    --glow-absama: 0 0 20px hsl(var(--accent) / 0.5);
+    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.8);
+    --transition-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 
     --sidebar-background: 0 0% 98%;
 

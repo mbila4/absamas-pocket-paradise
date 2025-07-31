@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Absama's Arena custom colors
+				'table-felt': 'hsl(var(--table-felt))',
+				'table-rail': 'hsl(var(--table-rail))',
+				'table-pocket': 'hsl(var(--table-pocket))',
+				'cue-ball': 'hsl(var(--cue-ball))',
+				'ball-stripe': 'hsl(var(--ball-stripe))',
+				'ball-solid': 'hsl(var(--ball-solid))'
+			},
+			backgroundImage: {
+				'gradient-absama': 'var(--gradient-absama)',
+				'gradient-table': 'var(--gradient-table)',
+				'gradient-wood': 'var(--gradient-wood)'
+			},
+			boxShadow: {
+				'absama-glow': 'var(--glow-absama)',
+				'elegant': 'var(--shadow-elegant)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'cubic-bezier(0.23, 1, 0.32, 1)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
